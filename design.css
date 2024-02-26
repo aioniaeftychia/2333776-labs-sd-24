@@ -1,0 +1,92 @@
+.centre 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*h1
+{
+    justify-content: flex-start;
+}
+
+nav
+{ 
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}*/
+
+ul
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+li
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+header
+{
+    display: flex;
+    background-color: rgb(4, 90, 0);
+    height: auto;
+    width: auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1
+{
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+}
+
+body
+{
+    background-color: rgb(42, 26, 2);
+    text-align: center;
+    position: relative;
+    margin: 0;
+}
+
+article
+{
+    border: 1px solid rgb(255, 255, 255);
+    /*border-collapse: collapse;*/
+    padding: 1%;
+} 
+#noborder
+{
+    border-left: none;
+    /*border-collapse: collapse;*/
+} 
+
+footer
+{
+    background-color: rgb(4, 90, 0);
+    color: white;
+    width: auto;
+    height: auto;
+}
+
+#paragraphfooter
+{
+    margin: 0;
+    margin-top: 1em;
+    padding: 1em;
+}
+
+a
+{
+    color: rgb(255, 255, 183);
+}
+
+#whitetext
+{
+    color: rgb(255, 255, 255);
+}
